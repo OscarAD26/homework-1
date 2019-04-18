@@ -1,3 +1,46 @@
 body{
-    background-color: red;
+    background-color:#dddddd;
+    padding:100px;
+}
+
+#header-link{
+    background-color:#4aaaa5;
+    color:whitesmoke;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    width:220px;
+    height:40px;
+    margin:50px,50px,50px,50px;
+    padding:50px,75px,50px,75px;
+    /* border-style:;
+    border:;
+    border-color:; */
+}
+
+#contact-link{
+    float:right;
+    margin-right:50px;
+}
+#portfolio-link{
+    float:right;
+    margin-right:10px;
+    }
+#about-link{
+    float:right;
+    margin-right:10px;
+    }
+#links{
+    float:center;
+}  
+#white-box{
+    background:white;
+    width:960px;
+}  
+
+h2{
+    color:#4aaaa5;
+}
+
+
+img {
+    width: 10%;
 }
