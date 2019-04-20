@@ -16,9 +16,7 @@ body{
     border:;
     border-color:; */
 }
-nav {
-    display: block;
-  }
+
 #contact-link{
     float:right;
     margin-right:50px;
@@ -34,6 +32,10 @@ nav {
 #links{
     float:center;
 }  
+a { 
+    color: #777777;
+    text-decoration: none;
+}
 #white-box{
     background:white;
     width:960px;
@@ -46,6 +48,20 @@ h2{
 #photo{
     float:left;
     width: 15%;
+}
+input { 
+    border: 1px solid #ccc;
+    font-size: 15px;
+    margin: 10px 0 10px 0;
+    padding: 7px;
+    width: 882px;
+}
+textarea { 
+    border: 1px solid #ccc;
+    height: 275px;
+    margin: 10px 0 15px 0;
+    padding: 7px;
+    min-width: 882px;
 }
 footer{
     background:#666666;
