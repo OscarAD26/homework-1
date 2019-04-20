@@ -43,9 +43,11 @@ a {
 }
 #white-box{
     background:white;
-    width:960px;
-    height:450px;
-    margin: 0%;
+    width:860px;
+    margin: 0px auto;
+    padding:50px;
+    /* extent the container*/
+    overflow: auto;
 }  
 h2{
     color:#4aaaa5;
@@ -59,21 +61,24 @@ input {
     font-size: 15px;
     margin: 10px 0 10px 0;
     padding: 3px;
-    width: 952px;
+    width: 850px;
 }
 textarea { 
     border: 1px solid #ccc;
     height: 135px;
     margin: 10px 0 15px 0;
     padding: 7px;
-    min-width: 987px;
+    width: 850px;
 }
-button { 
+#text-area{
+    margin: 40px 0 0 0;
+}
+#submit { 
     background-color: #4aaaa5; 
     border: 1px solid #4aaaa5;
     color: white;
     font-size: 12px;
-    padding: 12px;
+    height: 50px;
     width: 140px;
 }
 footer{
@@ -86,6 +91,13 @@ footer{
 section{
     margin:0px auto;
     width:960px;
+}
+.box{
+    width: 300px;
+    height:150px;
+    background-color: grey;
+    float: left;
+    margin:0 10px 10px 0;
 }
 /* About me page-end */
 
