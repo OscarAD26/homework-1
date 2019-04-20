@@ -39,7 +39,7 @@ a {
 #white-box{
     background:white;
     width:960px;
-    height:300px;
+    height:450px;
     margin: 0%;
 }  
 h2{
@@ -53,15 +53,23 @@ input {
     border: 1px solid #ccc;
     font-size: 15px;
     margin: 10px 0 10px 0;
-    padding: 7px;
-    width: 882px;
+    padding: 3px;
+    width: 952px;
 }
 textarea { 
     border: 1px solid #ccc;
-    height: 275px;
+    height: 135px;
     margin: 10px 0 15px 0;
     padding: 7px;
-    min-width: 882px;
+    min-width: 945px;
+}
+button { 
+    background-color: #4aaaa5; 
+    border: 1px solid #4aaaa5;
+    color: white;
+    font-size: 12px;
+    padding: 12px;
+    width: 140px;
 }
 footer{
     background:#666666;
