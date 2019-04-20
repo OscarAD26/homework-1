@@ -1,8 +1,8 @@
 /* About me page */
 body{
     background-color:#dddddd;
-    /* background-image: url(/Basic-portfolio.html/assets/images/crossline-lines.png) */
-    padding:125px;
+    background-image: url('../images/crossline-lines.png');
+    padding:0x;
 }
 #header-link{
     background-color:#4aaaa5;
@@ -10,16 +10,19 @@ body{
     font-family: 'Georgia', Times, Times New Roman, serif;
     width:220px;
     height:40px;
-    margin:0%;
     padding:50px,75px,50px,75px;
     /* border-style:;
     border:;
     border-color:; */
 }
+header{
+    margin:0 auto;
+    width: 960px;
+}
 
 #contact-link{
     float:right;
-    margin-right:50px;
+    margin-right:0px;
 }
 #portfolio-link{
     float:right;
@@ -30,7 +33,9 @@ body{
     margin-right:10px;
     }
 #links{
-    float:center;
+    float:right;
+    text-align: right;
+
 }  
 a { 
     color: #777777;
@@ -61,7 +66,7 @@ textarea {
     height: 135px;
     margin: 10px 0 15px 0;
     padding: 7px;
-    min-width: 945px;
+    min-width: 987px;
 }
 button { 
     background-color: #4aaaa5; 
@@ -76,6 +81,11 @@ footer{
     width:960px;
     font-size:10pt; 
     height:30px;
+    margin:0px auto;
+}
+section{
+    margin:0px auto;
+    width:960px;
 }
 /* About me page-end */
 
