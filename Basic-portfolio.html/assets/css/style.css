@@ -99,6 +99,10 @@ section{
     float: left;
     margin:0 10px 10px 0;
 }
+#beer{
+    width: 300;
+    length: 150;
+}
 /* About me page-end */
 
 /* Contact page */
